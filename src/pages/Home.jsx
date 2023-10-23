@@ -7,6 +7,8 @@ import Features from "../components/Features";
 import Information from "../components/Information";
 import ComingSoon from "../components/ComingSoon";
 import Services from "../components/Services";
+import Graph from "../components/Graph";
+import Reviews from "../components/Reviews";
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <Information />
       <ComingSoon />
       <Services />
+      <Graph />
+      <Reviews />
     </main>
   );
 };
